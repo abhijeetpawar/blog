@@ -163,11 +163,6 @@ function Resume() {
     },
   ]
 
-  const handleOpenPdf = () => {
-    const pdfUrl = '../public/CV_abhijeetpawar.pdf';
-    window.open(pdfUrl, '_blank');
-  };
-
   return (
     <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
       <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
@@ -180,10 +175,6 @@ function Resume() {
         ))}
       </ol>
       <DownloadCV />
-      {/* <Button variant="secondary" className="group mt-6 w-full" onClick={handleOpenPdf}>
-        Download CV
-        <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
-      </Button> */}
     </div>
   )
 }
@@ -223,12 +214,12 @@ export default async function Home() {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-            Software engineer, founder, and amateur photographer.
+            Software engineer, amateur photographer, idiot.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Abhijeet, a software engineer and entrepreneur based in Berlin. 
+            I’m Abhijeet, a software engineer based in Berlin. 
             I’m the founder and CTO of <Link href="https://neovarsity.org" className='font-medium text-black dark:text-white'>Neovarsity</Link>, 
-            an ed-tech venture solving for upskilling and reskilling of talent in the emerging deep tech industries.
+            a ed-tech venture solving for upskilling and reskilling of talent in the emerging deep tech industries.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink href="https://twitter.com/_abhijeetpawar" aria-label="Follow on X" icon={XIcon} />

@@ -1,0 +1,44 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+import image from './writing.jpg'
+
+export const article = {
+  author: 'Abhijeet Pawar',
+  date: '2024-08-02',
+  title: 'Why Blog?',
+  description: 
+    'I’ve been meaning to start writing for a long time. I’m glad I finally committed to doing it.',
+}
+
+export const metadata = {
+  title: article.title,
+  description: article.description,
+}
+
+export default (props) => <ArticleLayout article={article} {...props} />
+
+I've been meaning to start writing for a long time. I'm glad I finally committed to doing it.
+
+As I've gotten older, and hopefully a bit wiser, I've realized that before starting any project, 
+it always makes sense to take a step back and think about why do it. The reasons may vary, 
+it can be as simple as "I get joy from it" which might arguably be the best reason to do anything, to not so interesting ones like everyone else is doing it.
+
+<Image src={image} alt="writing" />
+
+**Here's why I'm doing it**
+
+1. **Writing forces you to be a clear thinker**
+- Clear articulation of ideas often reveals gaps in our understanding. When solving technical problems, I've frequently struggled to explain why a particular solution is optimal. A good technical document not only creates clarity and alignment but forces you to think through all you assumptions & conclusions.
+- A well written article is almost always a marker of a good, clear thinker.
+
+2. **Writing is the most powerful medium of communication**
+- Find the smartest people who've done and achieved great things and you will almost always find them to be a great communicator. 
+- It's no surprise that people like [Paul Graham](https://paulgraham.com/writing44.html), Warren Buffet, Jeff Bezos are such exceptional communicators and put so much emphasis on written communication.
+- Writing is one of the most high leverage activities one can do in the day and age of Internet.
+
+3. **Connecting with fellow like minded individuals**
+- Writing is such a great way to put out your thoughts into the world and connect with like minded individuals. Sure, you could do this via social media, but social media mostly tends to be performative and favors shallow content over substance. 
+- Personally, there have been many instances where I've stumbled upon a blog that I end up devouring. Someday I'll meet these amazing strangers and thank them for it.
+
+
+
+

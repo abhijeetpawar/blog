@@ -9,10 +9,10 @@ export const metadata: Metadata = {
   title: {
     template: '%s - Abhijeet Pawar',
     default:
-      'Abhijeet Pawar - Software engineer, founder, and amateur photographer',
+      'Abhijeet Pawar - Software engineer, amateur photographer, idiot',
   },
   description:
-    'I’m Abhijeet, a software engineer and entrepreneur based in Berlin. I’m currently building Neovarsity, an ed-tech venture solving for upskilling and reskilling of talent in the emerging deep tech industries.',
+    'I’m Abhijeet, a software engineer based in Berlin. I’m currently building Neovarsity, an ed-tech venture solving for upskilling and reskilling of talent in the emerging deep tech industries.',
   alternates: {
     types: {
       'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,
