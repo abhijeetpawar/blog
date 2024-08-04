@@ -102,11 +102,11 @@ export default function About() {
               Follow on LinkedIn
             </SocialLink>
             <SocialLink
-              href="mailto:304abhijeet@gmail.com"
+              href="mailto:contact@abhijeetpawar.net"
               icon={MailIcon}
               className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
             >
-              304abhijeet@gmail.com
+              contact@abhijeetpawar.net
             </SocialLink>
           </ul>
         </div>
