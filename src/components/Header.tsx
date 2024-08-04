@@ -236,8 +236,8 @@ function Avatar({
           large ? 'h-16 w-16' : 'h-9 w-9',
         )}
         priority
-        width={128}
-        height={128}
+        width={64}
+        height={64}
       />
     </Link>
   )
